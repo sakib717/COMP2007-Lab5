@@ -20,7 +20,7 @@ namespace COMP2007_S2016_Lesson12C.Models
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 
-        public virtual DbSet<Song> Songs { get; set; } //added the model in the MusicStoreContext
+        public virtual DbSet<Song> Songs { get; set; } //added the Song model in the MusicStoreContext 
 
     }
 }

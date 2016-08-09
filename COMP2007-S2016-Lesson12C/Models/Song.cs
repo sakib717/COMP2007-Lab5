@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-//Added data to the Song's model created 
+//Added data to the Song's model, created SongId, SongName, and Duration...
 namespace COMP2007_S2016_Lesson12C.Models
 {
     public class Song
